@@ -1,0 +1,29 @@
+{
+  "name": "is-web",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "autjhor": "Chris Pecunies <clp@clp.is>",
+  "license": "MIT",
+  "scripts": {
+    "run": "",
+    "build": "",
+    "dev": "",
+    "test": ""
+  },
+  "devDependencies": {
+    "@swc/core": "^1.2.124",
+    "@swc/helpers": "^0.3.2",
+    "@swc/jest": "^0.2.15",
+    "@swc/wasm": "^1.2.124",
+    "chokidar": "^3.5.2",
+    "swc-loader": "^0.1.15"
+  },
+  "dependencies": {
+    "@napi-rs/package-template": "^1.0.0",
+    "@swc/cli": "^0.1.55",
+    "@xstate/fsm": "^1.6.3",
+    "@xstate/graph": "^1.4.0",
+    "ava": "^3.15.0",
+    "xstate": "^4.27.0"
+  }
+}
